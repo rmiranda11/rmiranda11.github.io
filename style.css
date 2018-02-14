@@ -1,0 +1,206 @@
+
+/*Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+ }
+
+ .global {
+     background-color:black;
+ }
+
+.header {
+    background-color: #ffffff;
+    width: 90%;
+    height: 90px;
+    border-style:ridge;
+    border-width:2px 0px;
+    border-color:lightgray;    
+    margin:auto;
+    position: relative;
+}
+
+.name{
+    background-color: #4aaaa5;
+    width: 25%; 
+    padding: 40px;
+    margin-left: 100px;
+    position:absolute;
+    color:#ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.links{
+    width:40%;
+    position:absolute;
+    right:100px;
+    padding: 40px;
+}
+
+.wrapper{
+    width:90%;
+    height:500px;
+    margin:auto;
+    background-image:url(spiration-light.png);
+    position:relative;
+    display:flex;
+}
+
+.aboutMe{
+    width:650px;
+    height: 400px;
+    position:absolute;
+    left:100px;
+    top:50px;
+    background-color:#ffffff;
+}
+
+.connect{
+    width:270px;
+    height:200px;
+    position: absolute;
+    left:790px;
+    top:50px;
+    background-color: #ffffff;
+}
+
+
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 90%;
+    height:90px;
+    margin:auto;
+    background-color:#666666;
+    color: white;
+    text-align: center;    
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-width:7px;
+    padding-top: 40px;
+}
+
+.pic{
+    float:left;
+    margin:18px;
+}
+
+.intro{
+  text-align:left;
+  color:#777777;
+  font-size:14;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: 2.5px;
+  line-height: 20px;
+  padding:10 5px;
+  margin: 15px;
+}
+
+.h2{
+    color:#4aaaa5;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    text-align:left;
+    font-weight:bold;
+    padding:15px;
+}
+
+.about,.portfolio,.contact{
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#777777;
+    font-weight:bold;
+    float:right;
+    padding:5px;
+    letter-spacing: 2px;
+    margin:0px 5px 0px 0px;
+
+}
+
+.portfolio,.contact{
+    border:0px solid gray;
+    border-right-width:1px;
+    }
+
+hr{
+    width:90%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 56px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    float:left;
+    margin-left:20px
+  }
+  
